@@ -1,0 +1,58 @@
+:root {
+  --background-color: #121212;
+  --surface-color: #242424;
+  --font-color-main: #333;
+  --font-color-medium: #aaa;
+  --font-color-disabled: #888;
+  --font-on-primary-color-main: #eee;
+  --font-on-primary-color-dark-main: rgba(255, 255, 255, 0.87);
+  --font-on-primary-color-dark-medium: rgba(255, 255, 255, 0.60);
+  --font-on-primary-color-medium: rgba(0, 0, 0, 0.56);
+  --font-on-primary-color-disabled: rgba(0, 0, 0, 0.38);
+  --hover-color: rgba(255, 255, 255, 0.04);
+  --focus-color: rgba(255, 255, 255, 0.12);
+  --focus-color-solid: #424242;
+  --background-color-disabled: rgba(255, 255, 255, 0.12);
+  --background-color-level-4dp: rgba(255, 255, 255, 0.09);
+  --background-color-level-16dp-solid: #262626;
+  --background-color-card: var(--surface-color);
+  --background-color-slight-emphasis: rgba(255, 255, 255, 0.05);
+  --separator-color: #424242; /* borders between components */
+  --error-color: #CF6679;
+  --slider-track-color: rgba(255, 255, 255, 0.26);
+  --switch-thumb-off-color: #bababa;
+  --primary-color: #333;
+  --primary-color-dark: #222;
+  --primary-color-numeric: #444;
+  --primary-color-raised-hover-solid: #1e88e5;
+  --primary-color-raised-focus-solid: #3949ab;
+  --secondary-color: #CDDC39;
+  --secondary-color-hover-solid: #DCEB48;
+  --secondary-color-focus-solid: #F5FF61;
+  --secondary-container-color: var(--primary-color);
+  --font-on-secondary-container-color: rgba(255, 255, 255, 0.87);
+  --md_sys_color_on-surface: 230, 225, 229;
+  --md-sys-color-primary-light: #1565c0;
+}
+
+body h2 {
+  padding-top: 1rem;
+  border-top: var(--font-color-medium) 1px solid;
+  padding-bottom: 1rem;
+  border-bottom: var(--font-color-medium) 1px solid;
+}
+body main.container {
+  padding: 3rem 0;
+}
+body a.btn-large {
+  font-weight: 600;
+}
+
+@media only screen and (max-width : 600.99px) {
+  body .brand-logo {
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
